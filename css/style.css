@@ -1,0 +1,103 @@
+h6
+{
+  color: white;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textCar{
+  text-align: right;
+  width: 50%;
+  position: relative;
+  left: 65%;
+  padding-bottom: 40px;
+}
+
+textoPlaya
+{
+  font-size: 4%;
+}
+
+.col, .col2
+{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+
+}
+
+.col2
+{
+  background-color: rgb(58, 55, 55);   
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#Fondo:before
+ {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#fondo h4 {
+	font-size: 60px;
+	color: #fff;
+	position: relative
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.carousel-inner{
+  height: 700px;
+}
+
+.BtnEnviar
+{
+  background-color: #9DC927;
+
+}
+
+footer {
+  background-color: rgb(29, 64, 83);
+   
+}
+
+footer .container-footer 
+{
+ width: 90vw;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+footer .container-footer a 
+{
+ text-decoration: none;
+ color: var(--gray-200);
+ padding: 3rem 0;
+ width: 100px;
+ text-align: center;
+
+}
+
+footer .container-footer a:hover 
+{
+ color: var(--gray-500);
+}
+
